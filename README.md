@@ -1,4 +1,4 @@
-# electron-svelte-typescript
+# svelte-electron-ts-todo-app using svelte stores
 
 Template for apps written with [Electron](https://github.com/electron/electron), [Svelte](https://github.com/sveltejs/svelte) and [Typescript](https://github.com/microsoft/TypeScript).
 
