@@ -21,13 +21,13 @@ _Note that you will need to have [Node.js](https://nodejs.org) installed._
 Install the dependencies...
 
 ```bash
-npm i
+pnpm i
 ```
 
 ...then start coding in dev mode:
 
 ```bash
-npm start
+pnpm start
 ```
 
 The start script spins up [Rollup](https://github.com/rollup/rollup)
@@ -40,19 +40,19 @@ nodemon server to watch for file changes related to the main electron process.
 In order to lint the code you run:
 
 ```bash
-npm run lint
+pnpm run lint
 ```
 
 In order to prettify the code you run:
 
 ```bash
-npm run format
+pnpm run format
 ```
 
 You should run the following command, which runs lint and then format, on your contributed code:
 
 ```bash
-npm run preversion
+pnpm run preversion
 ```
 
 before creating a pull request.
