@@ -14,6 +14,7 @@ export function addTodo(title: String) {
     if(title) {
         todoItems.update((_todoItems: TodoItem[]) => {
             let todoItem: TodoItem = { id: uuidv4(), title: title, completed: false };
+            console.log("adding a new todo item to the store -", todoItem);
             _todoItems = [..._todoItems, todoItem];
             //title = "";
             return _todoItems;
@@ -24,6 +25,7 @@ export function addTodo(title: String) {
 
 export function removeTodo(id: String) {
     todoItems.update((_todoItems: TodoItem[]) => {
+        console.log("removing a todo item from the store with id -", id);
         _todoItems = _todoItems.filter(todoItem => todoItem.id !== id);
         return _todoItems;
     });
@@ -35,6 +37,7 @@ export function markDone(id: String) {
         _todoItems.map((todoItem, i) => {
             if (todoItem.id === id) {
                 _todoItems[i].completed = !_todoItems[i].completed;
+                console.log("updating a todo item in the store -", _todoItems[i]);
             }
         });
         return _todoItems;
