@@ -1,19 +1,19 @@
 {
-  "name": "electron-svelte-typescript",
+  "name": "svelte-electron-ts-todo-app",
   "description": "Template for desktop apps written with Electron, Svelte and Typescript.",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fuzzc0re/electron-svelte-typescript.git"
+    "url": "git+https://github.com/d-subrahmanyam/svelte-electron-ts-todo-app.git"
   },
   "author": {
-    "name": "fuzzc0re",
-    "email": "fuzzc0re@protonmail.com",
-    "url": "https://github.com/fuzzc0re"
+    "name": "d-subrahmanyam",
+    "email": "hire.subbu@gmail.com",
+    "url": "https://github.com/d-subrahmanyam"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fuzzc0re/electron-svelte-typescript/issues"
+    "url": "https://github.com/d-subrahmanyam/svelte-electron-ts-todo-app/issues"
   },
   "keywords": [
     "electron",
